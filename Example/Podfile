@@ -2,10 +2,4 @@ use_frameworks!
 
 target 'jingpods_Example' do
   pod 'jingpods', :path => '../'
-
-  target 'jingpods_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
-  end
 end
